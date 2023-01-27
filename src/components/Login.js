@@ -96,7 +96,7 @@ const Login=()=> {
             />
           </div>
           <p>{formErrors.password}</p>
-          <button className="fluid ui button blue border-[1px] border-gray-400 p-2 px-4 outline-none pr-[210px] text-center mt-8 text-[#fff] text-[20px]">
+          <button className="fluid ui button blue border-[1px] border-gray-400 p-2 px-4 outline-none pr-[210px] text-center mt-8 text-[#fff] text-[20px] buut">
             Submit
           </button>
         </div>

@@ -31,10 +31,6 @@ pre {
     font-size: larger;
 }
 
-button {
+.buut{
     background: #a90606 !important;
-}
-
-p {
-    color: red;
 }

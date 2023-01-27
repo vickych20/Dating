@@ -226,6 +226,9 @@ const Navbar = () => {
         <Link to="/contact" className="home">
           <li>contact</li>
         </Link>
+        <Link to="/blog" className="home">
+          <li>Blog</li>
+        </Link>
       </ul>
       <button className="mobile-menu" onClick={() => setMobile(!mobile)}>
         {mobile ? <RxCross2 /> : <FiAlignRight />}
