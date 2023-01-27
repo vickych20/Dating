@@ -1,0 +1,86 @@
+.back{
+   background-image: url('../images/ra1.png');
+   width: 100%;
+    font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 13px;
+        line-height: 24px;
+        -webkit-text-size-adjust:100%;
+        -webkit-tap-highlight-color:transparent;
+        background-size:cover;
+        background-repeat:no-repeat;
+
+}
+.btn{
+   
+   
+font-size: 24px;
+    
+margin-top: 30px;
+background-color: #000;
+color:#fff;
+
+
+padding: 4px 40px;
+   
+ 
+}
+.btna{
+    padding: 4px 30px;
+   
+    font-size: 24px;
+    
+margin-top: 30px;
+
+}
+.imgat{
+    background-image: url('../images/app-img-2.png');
+    width: 50%;
+    background-size: cover;
+        background-repeat: no-repeat;
+ 
+       height: 30vh;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 13px;
+        line-height: 24px;
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: transparent;
+}
+.test{
+    background-image: url('../images/rss.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: contain;
+  
+   
+   
+
+ 
+   
+   
+  
+
+}
+
+
+
+.slider {
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    color: white;
+
+}
+.parent-slide {
+    padding: 15px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}

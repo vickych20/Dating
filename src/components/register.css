@@ -1,0 +1,10 @@
+.register{
+    height: 100vh;
+    display: flex;
+    border:1px solid #e9ecef;
+    border-radius: 5px;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}

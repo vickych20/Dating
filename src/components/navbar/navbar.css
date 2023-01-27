@@ -1,0 +1,280 @@
+.appnavbar {
+    width: 100%;
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-black);
+    padding: 1rem 2rem;
+    font-family: var(--font-alt);
+    font-weight: 400;
+    letter-spacing: .04em;
+    line-height: 28px;
+    font-size: 16px;
+
+}
+
+.appnavbar-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.appnavbar-logo img {
+    width: 150px;
+
+}
+
+.appnavbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+}
+
+.appnavbar-links li {
+    margin: 0 1rem;
+    cursor: pointer;
+
+
+}
+
+.appnavbar-links li a:hover {
+    color: rgb(177, 175, 175)
+}
+
+.login {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: var(--font-alt);
+    font-weight: 400;
+    letter-spacing: .04em;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.login a {
+    margin: 0 1rem;
+    text-decoration: none;
+    transition: 0.5s ease;
+
+
+}
+
+.login a:hover {
+    border-bottom: 1px solid var(--color-golden);
+
+}
+
+.login div {
+    width: 1px;
+    height: 30px;
+    background: rgb(206, 205, 202);
+}
+
+.app_navbar-smallscreen {
+    display: none;
+}
+
+.app_navbar-smallscreen_overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: var(--color-black);
+    transition: 0.5s ease;
+    flex-direction: column;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app_navbar-smallscreen_overlay .overlay_close {
+    font-size: 47px;
+    color: var(--color-golden);
+    cursor: pointer;
+    top: 20px;
+    position: absolute;
+    left: 20px;
+    display: flex;
+    justify-content: end;
+
+
+}
+
+.app_navbar-smallscreen-links li {
+    text-decoration: none;
+    color: #ff00ff;
+    padding: 10px;
+    list-style: none;
+
+
+}
+
+.app_navbar-smallscreen-links li a {
+
+    margin: 2rem;
+    cursor: pointer;
+    color: var(--color-golden);
+    font-size: 2rem;
+    text-align: center;
+    font-family: var(--font-base);
+}
+
+.app_navbar-smallscreen-links li a:hover {
+    color: var(--color-white)
+}
+
+@media screen and (max-width:1150px) {
+    .appnavbar-links {
+        display: none;
+    }
+
+    .app_navbar-smallscreen {
+        display: flex
+    }
+}
+
+@media screen and (max-width:2000px) {
+    .appnavbar-logo img {
+        width: 150px;
+
+    }
+
+}
+
+@media screen and (max-width:650px) {
+    .appnavbar-logo img {
+        width: 110px;
+
+    }
+
+    .appnavbar {
+        padding: 1rem;
+    }
+
+    .login {
+        display: none
+    }
+
+
+}
+@media screen and (max-width:767px) {
+    .menu{
+        display: none;
+    }
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: #00828c;
+
+}
+
+.logo {
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    width: 55%;
+    z-index:1000;
+
+
+    color: aliceblue
+}
+
+.nav-link Link {
+    text-transform: uppercase;
+    gap: 30px;
+    text-decoration: none;
+}
+
+.home {
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+}
+
+.home:hover {
+    border: 2px solid gray;
+    background: #fff;
+    color: rgb(189, 15, 169);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.mobile-menu {
+    display: none;
+
+}
+
+@media screen and (max-width:758px) {
+    .logo {
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 35px;
+
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .nav-link-mobile {
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: #005469;
+        left: 0;
+        top: 75px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+        z-index: 1000;
+
+    }
+
+    .home {
+        color: white;
+        text-align: center;
+        padding: 32px;
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+
+    .mobile-menu {
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        color: white;
+        background-color: #00828c;
+        border: none;
+        outline: none;
+        top: 15px;
+        right: 25px;
+
+    }
+
+}
