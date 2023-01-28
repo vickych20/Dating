@@ -15,6 +15,9 @@ import True from './pages/True';
 import Sslider from './pages/Sslider';
 import Cimtacft from "./pages/Cimtacft";
 import Footer from './pages/Footer';
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 
 

@@ -5,10 +5,10 @@ import './ss.css'
 const Homea = () => {
   return (
     <div className="flex justify-center items-center gap-4 my-8 max-md:flex-col max-w-[1170px] mx-auto">
-      <div className="w-[50%] max-md:justify-center">
+      <div className="w-[50%] max-md:justify-center" data-aos="fade-up-right">
         <img src={img1} alt="" />
       </div>
-      <div className="w-[50%] max-md:w-full">
+      <div className="w-[50%] max-md:w-full" data-aos="fade-up-left">
         <h1 className="text-[40px] font-400 text-[#3d3d3d] max-md:text-[20px]">
           Founded In 1990
         </h1>
@@ -23,7 +23,10 @@ const Homea = () => {
           that not even a shock and awe campaign could bring down. But I do
           love. And in fact I even love unconditionally.
         </p>
-        <p className="py-4 text-[#808080] max-md:p-[10px] max-md:text-[14px]">
+        <p
+          className="py-4 text-[#808080] max-md:p-[10px] max-md:text-[14px]"
+         
+        >
           I have a truck. It’s kind of a small truck, but I’m comfortable with
           myself so that’s okay. I think that I love it. I had a friend about a
           year ago ask me if I could have any car in the world what would I
