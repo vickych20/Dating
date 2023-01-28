@@ -70,7 +70,7 @@ const Blog = () => {
             vis cu ubique referrentur, sed eu dicant expetendis. Eum cu
           </h1>
         </div>
-        <div className="flex justify-center items-start max-xl:flex-col max-2xl:items-center">
+        <div className="flex justify-start items-start max-xl:flex-col max-2xl:items-center">
           <div className="mx-8 text-[#3d3d3d] flex-1">
             <p className="text-[30px] font-600">SEARCH HERE</p>
             <div className="h-[2px] w-[40px] bg-[#ffd000] m-2"></div>
